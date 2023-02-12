@@ -1,0 +1,54 @@
+:root {
+    --fonte-texto: @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+}
+
+.cabesalho {
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0;
+}
+
+.cabesalho-marca {
+    display: flex;
+    align-items: center;
+}
+
+.cabesalho-marca-texto {
+    margin: 0 0 0 8px;
+    font-size: 18px;
+    color: #3A404E;
+
+}
+
+.cabesalho-paginas {
+    display: flex;
+    gap: 2em;
+}
+
+.cabecalho-paginas-pagina {
+    color: #667085;
+}
+
+.cabesalho-login-cadastrar {
+    padding: 10px 18px;
+    background-color: #8E2424;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.cabesalho-login-entrar {
+    margin-right: 1.9em;
+    color: #667085;
+}
