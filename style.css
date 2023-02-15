@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 :root {
-    --fonte-texto: @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+    --fonte-texto: 'inter', sans-serif;
     --vermelho-principal: #8E2424;
     --cinza-principal: #667085;
+    --cinza-secundario-texto: #101828;
 }
 
 * {
@@ -83,5 +85,31 @@ body {
 .conteiner-texto {
     color: var(--cinza-principal);
     font-size: 20px;
+    font-weight: 400;
+}
+
+.conteiner__resultados{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteiner__resultados-div{
+    width: 15%;
+}
+
+.conteiner__resultado-titulo{
+    color: var(--vermelho-principal);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.conteiner__resultado-subtitulo{
+    font-size: 18px;
+    color: var(--cinza-secundario-texto);
+    font-style: normal;
+}
+
+.conteiner__resultado-texto{
+    color: var(--cinza-principal);
     font-weight: 400;
 }
