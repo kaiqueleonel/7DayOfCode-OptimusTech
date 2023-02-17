@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 :root {
     --fonte-texto: 'inter', sans-serif;
     --vermelho-principal: #8E2424;
     --cinza-principal: #667085;
-    --cinza-secundario-texto: #101828; 
+    --cinza-secundario-texto: #101828;
     --cinza-terciario-borda: #EAECF0;
 }
 
@@ -89,40 +90,40 @@ body {
     font-weight: 400;
 }
 
-.conteiner__resultados{
+.conteiner__resultados {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 10%;
 }
 
-.conteiner__resultados-div{
+.conteiner__resultados-div {
     width: 15%;
 }
 
-.conteiner__resultado-titulo{
+.conteiner__resultado-titulo {
     color: var(--vermelho-principal);
     font-weight: 600;
     font-size: 60px;
 }
 
-.conteiner__resultado-subtitulo{
+.conteiner__resultado-subtitulo {
     font-size: 18px;
     color: var(--cinza-secundario-texto);
     font-style: normal;
 }
 
-.conteiner__resultado-texto{
+.conteiner__resultado-texto {
     color: var(--cinza-principal);
     font-weight: 400;
 }
 
-.conteiner__talentos{
+.conteiner__talentos {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.conteiner__talentos-pagina{
+.conteiner__talentos-pagina {
     color: var(--vermelho-principal);
     font-size: 14px;
     background-color: rgba(142, 36, 36, 5%);
@@ -131,34 +132,34 @@ body {
     line-height: 20px;
 }
 
-.conteiner__talentos-titulo{
+.conteiner__talentos-titulo {
     font-size: 36px;
     font-weight: 600;
     color: var(--cinza-secundario-texto);
     line-height: 44px;
-    letter-spacing:  -2%;
+    letter-spacing: -2%;
     padding: 20px 0;
 }
 
-.conteiner__talentos-texto{
+.conteiner__talentos-texto {
     color: var(--cinza-principal);
     font-size: 20px;
     font-weight: 400;
-    line-height:30px;
+    line-height: 30px;
 }
 
-.conteiner__talentos-imagem{
+.conteiner__talentos-imagem {
     padding: 5% 10%;
 }
 
-.conteiner__vagas{
+.conteiner__vagas {
     margin: 0 20%;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.conteiner__vagas-card{
+.conteiner__vagas-card {
     display: flex;
     flex-direction: column;
     border: 1px solid var(--cinza-terciario-borda);
@@ -167,18 +168,61 @@ body {
     padding: 1em;
 }
 
-.conteiner__vagas-titulo{
+.conteiner__vagas-titulo {
     font-size: 20px;
     color: var(--cinza-secundario-texto);
     margin-top: 64px;
 }
 
-.conteiner__vagas-subtitulo{
+.conteiner__vagas-subtitulo {
     color: var(--cinza-secundario-texto);
     font-size: 18px;
 }
 
-.conteiner__vagas-informacoes{
+.conteiner__vagas-informacoes {
     color: var(--cinza-principal);
-    font-size: ;
+   margin: auto auto auto 24px;
+}
+
+.conteiner__depoimento {
+    background-color: rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    margin: 10%;
+}
+
+.conteiner__depoimento-span {
+    color: var(--vermelho-principal);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.conteiner__depoimento-titulo {
+    font-size: 36px;
+    text-align: center;
+    color: var(--cinza-secundario-texto);
+}
+
+.conteiner__depoimento-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.conteiner__depoimento-avatar {
+    width: 56px;
+}
+
+.conteiner__depoimento-nome{
+    color: var(--cinza-secundario-texto);
+}
+
+.conteiner__depoimento-area{
+    font-size: 14px;
+    color: var(--cinza-principal);
 }
