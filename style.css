@@ -4,6 +4,7 @@
     --vermelho-principal: #8E2424;
     --cinza-principal: #667085;
     --cinza-secundario-texto: #101828; 
+    --cinza-terciario-borda: #EAECF0;
 }
 
 * {
@@ -148,4 +149,36 @@ body {
 
 .conteiner__talentos-imagem{
     padding: 5% 10%;
+}
+
+.conteiner__vagas{
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.conteiner__vagas-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--cinza-terciario-borda);
+    border-radius: 16px;
+    gap: 32px;
+    padding: 1em;
+}
+
+.conteiner__vagas-titulo{
+    font-size: 20px;
+    color: var(--cinza-secundario-texto);
+    margin-top: 64px;
+}
+
+.conteiner__vagas-subtitulo{
+    color: var(--cinza-secundario-texto);
+    font-size: 18px;
+}
+
+.conteiner__vagas-informacoes{
+    color: var(--cinza-principal);
+    font-size: ;
 }
