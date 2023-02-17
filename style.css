@@ -3,7 +3,7 @@
     --fonte-texto: 'inter', sans-serif;
     --vermelho-principal: #8E2424;
     --cinza-principal: #667085;
-    --cinza-secundario-texto: #101828;
+    --cinza-secundario-texto: #101828; 
 }
 
 * {
@@ -91,6 +91,7 @@ body {
 .conteiner__resultados{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 10%;
 }
 
 .conteiner__resultados-div{
@@ -112,4 +113,39 @@ body {
 .conteiner__resultado-texto{
     color: var(--cinza-principal);
     font-weight: 400;
+}
+
+.conteiner__talentos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner__talentos-pagina{
+    color: var(--vermelho-principal);
+    font-size: 14px;
+    background-color: rgba(142, 36, 36, 5%);
+    padding: 4px 12px;
+    border-radius: 16px;
+    line-height: 20px;
+}
+
+.conteiner__talentos-titulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-secundario-texto);
+    line-height: 44px;
+    letter-spacing:  -2%;
+    padding: 20px 0;
+}
+
+.conteiner__talentos-texto{
+    color: var(--cinza-principal);
+    font-size: 20px;
+    font-weight: 400;
+    line-height:30px;
+}
+
+.conteiner__talentos-imagem{
+    padding: 5% 10%;
 }
